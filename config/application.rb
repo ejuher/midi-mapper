@@ -24,6 +24,6 @@ module MidiMapper
     config.active_record.raise_in_transactional_callbacks = true
 
     # fix heroku precompile assets fail?
-    # config.assets.initialize_on_precompile = false
+    config.assets.initialize_on_precompile = false
   end
 end
